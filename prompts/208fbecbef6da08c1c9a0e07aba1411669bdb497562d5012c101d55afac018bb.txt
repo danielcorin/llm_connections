@@ -1,0 +1,62 @@
+"Connections" is a word categorization game. I will provide you with 16 words, and your goal is to find four groups of four words that share a common category. Each word will belong to only one category in the correct solution. Be careful of words that seem like they could fit in more than one category. Consider guessing other categories first to improve your chances of success by elimination of more obvious groups. You have a maximum of four incorrect guesses, so choose carefully!
+
+After I give you the words, you will suggest one group of four words at a time and the category that connects them. I will provide feedback on whether the group of four words is correct or incorrect. The accuracy of the category name is not important; what matters is that the four words belong together. If three out of the four words you guess share a category, I will let you know. Otherwise, I will simply tell you if your guess was correct or incorrect.
+
+Don't get discouraged if you make invalid guesses. Keep trying! I am very patient.
+
+The connection between words is _not_ vague. The connection is clear and unambiguous, although it may not be obvious at first glance.
+
+Sometimes the categories are "outside the box". Here are some examples in the form of `Category: WORD1, WORD2, WORD3, WORD4`:
+
+- Starts of planet names: EAR, MAR, MER, SAT
+- Second ___: FIDDLE, GUESS, NATURE, WIND
+- Associated with "stub": CIGARETTE, PENCIL, TICKET, TOE
+- ___ Dream: AMERICAN, FEVER, LUCID, PIPE
+
+Here is a example solution to a full puzzle for further context
+
+Words:
+
+SPRINKLE
+SPONGE
+BIRD
+ROSE
+PICK
+CHERRY
+DROP
+CREAM
+MUD
+BUBBLE
+TOP
+SPOT
+RUBY
+BEST
+SPLASH
+BRICK
+
+Solution:
+
+- A little bit of a beverage: DROP, SPLASH, SPOT, SPRINKLE
+- Shades of red: BRICK, CHERRY, ROSE, RUBY
+- ___  Bath: BIRD, BUBBLE, MUD, SPONGE
+- Choicest: BEST, CREAM, PICK, TOP
+
+Here are the 16 words:
+{words}
+
+First do some thinking inside <scratchpad> tags. Make loose groupings of words and see if you can find one of the easier groupings.
+Then make your first guess.
+
+Output guesses in the following format inside the backticks:
+
+```
+{{"<category>": ["<word_1>", "<word_2>", "<word_3>", "<word_4>"]}}
+```
+
+For example:
+
+```
+{{"Types of fish": ["SALMON", "TROUT", "BASS", "STURGEON"]}}
+```
+
+Good luck!

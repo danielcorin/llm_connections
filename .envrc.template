@@ -1,8 +1,8 @@
 # Uncomment the next line to automatically activate the virtualenv when entering
 # the directory.
-# Rename `env` to your environment folder name if necessary.
-# . env/bin/activate
+# . .venv/bin/activate
 export OPENAI_API_KEY=
+export ANTHROPIC_API_KEY=
 
 # Other API keys can be managed using `llm keys set <provider>` but they can
 # also be included here, assuming you know the variable name they should use.
