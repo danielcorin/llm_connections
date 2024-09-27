@@ -83,7 +83,7 @@ For example:
 python connections.py gpt-4o --date 2023-09-15 --prompt prompts/my_custom_prompt.txt
 ```
 
-The --date option allows you to play a specific puzzle from the past, while the --prompt option lets you use a custom prompt file instead of the default one.
+The `--date` option allows you to play a specific puzzle from the past, while the `--prompt` option lets you use a custom prompt file instead of the default one.
 
 If no date is specified, the script will use today's date by default.
 If no prompt file is specified, it will use the default prompt file.
